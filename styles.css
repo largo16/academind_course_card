@@ -1,0 +1,88 @@
+body {
+    font-family: 'IBM Plex Serif', serif;
+    justify-content: center;
+    align-content: center;
+    padding: 6rem;
+    background-color: #f5f5f5;
+
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 16rem;
+
+}
+
+#cards-container {
+    
+}
+
+#courses-list-card ul {
+
+}
+
+.course { 
+    box-shadow: .2rem 1rem 1rem rgba(0, 0, 0, .3);
+    width: 20rem;
+    transition: transform 0.5s ease-in;
+    margin: 0 20px;
+
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+#course-list-card { 
+
+}
+
+#title-content {
+    margin: 2rem 1rem  0 2rem;
+
+}
+
+#title-content h2 {
+    text-align: left;
+}
+
+#price-content h1 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: .5rem 0;
+}
+
+#price-content p {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+#list-content ul { 
+    margin-top: 2rem;
+    display: block;
+}
+
+#purchase-button {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid lightblue;
+    margin: 20px 20px;
+    transition: background-color 0.5s ease-in; 
+    position:static;
+}
+
+#purchase-button a { 
+    text-decoration: none;
+    color:cornflowerblue;   
+    
+}
+
+#purchase-button:hover {
+    background-color: darkslategray;
+}
+
+
